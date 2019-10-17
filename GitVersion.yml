@@ -1,24 +1,8 @@
-assembly-versioning-scheme: MajorMinorPatch
 assembly-informational-format: '{Major}.{Minor}.{Patch}.{CommitsSinceVersionSource}'
-mode: ContinuousDeployment
-continuous-delivery-fallback-tag: ci
+mode: Mainline
 next-version: 1.0.0
 branches:
-  master:
-    mode: ContinuousDeployment
-    tag: ''
-    increment: Patch
-    prevent-increment-of-merged-branch-version: true
-    tag-number-pattern: '[/-](?<number>\d+)[-/]'
-    track-merge-target: false
+  master: {}
 ignore:
   sha: []
 merge-message-formats: {}
-sDeployment
-    tag: ''
-    increment: Patch
-    prevent-increment-of-merged-branch-version: true
-    track-merge-target: false
-    tag-number-pattern: '[/-](?<number>\d+)[-/]'
-ignore:
-  sha: []

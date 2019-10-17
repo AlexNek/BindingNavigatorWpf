@@ -35,6 +35,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <None Include="docs\usage.md" />
+    <None Include="GitVersion.yml" />
     <None Include="LICENSE" />
     <None Include="README.md" />
     <None Include="ReleaseNotes.md" />
