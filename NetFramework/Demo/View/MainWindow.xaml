@@ -1,0 +1,30 @@
+﻿<Window x:Class="BindingNavigator.Wpf.Demo.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingNavigator.Wpf.Demo"
+        xmlns:View="clr-namespace:BindingNavigator.View;assembly=BindingNavigator"
+        xmlns:ViewModel="clr-namespace:BindingNavigator.Wpf.Demo.ViewModel"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance {x:Type ViewModel:MainWindowVm}, IsDesignTimeCreatable=False}"
+
+        Title="BindingNavigator WPF Demo" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New" />
+                    <MenuItem Header="_Open" />
+                    <MenuItem Header="_Save" />
+                    <Separator />
+                    <MenuItem Header="_Exit" />
+                </MenuItem>
+            </Menu>
+            <View:BindingNavigatorUc DockPanel.Dock="Bottom" DataContext="{Binding BindingNavigatorDataContext}"/>
+            <DataGrid ItemsSource="{Binding Customers}" SelectedIndex="{Binding SelectedIndex}" SelectedItem="{Binding SelectedItem}" AutoGenerateColumns="True">
+
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</Window>

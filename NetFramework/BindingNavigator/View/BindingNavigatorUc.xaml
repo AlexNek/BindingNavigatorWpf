@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="BindingNavigator.View.BindingNavigatorUc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Navigator="clr-namespace:BindingNavigator.Navigator"
+             xmlns:ViewModel="clr-namespace:BindingNavigator.ViewModel"
+             xmlns:Converters="clr-namespace:BindingNavigator.Converters"
+             d:DataContext="{d:DesignInstance {x:Type ViewModel:BindingNavigatorViewModel}}"
+             mc:Ignorable="d" 
+             >
+    <UserControl.Resources>
+        <Converters:CountConverter x:Key="CountConverter"/>
+        <Converters:CurrentPosConverter x:Key="CurrentPosConverter"/>
+        <Converters:ConverterBoolCollapsed x:Key="ConverterBoolCollapsed"/>
+        <Style x:Key="NavigatorButton" TargetType="Button">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Margin" Value="0,0,5,0"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button  Style="{StaticResource NavigatorButton}" ToolTip="First" Command="{Binding CommandFirstRecord}">
+                <Image Source="..\Images\MoveFirstItem.png" >
+                    
+                </Image>
+            </Button>
+            <Button  Style="{StaticResource NavigatorButton}" ToolTip="Prev" Command="{Binding CommandPreviousRecord}">
+                <Image Source="..\Images\PreviousItem.png"/>
+            </Button>
+            <TextBox Width="50" Margin="0,0,5,0" KeyDown ="TextBox_OnKeyDown" Text="{Binding CurrentPosition, Converter={StaticResource CurrentPosConverter}}"/>
+            <TextBlock Width="50" Margin="0,0,5,0" Text="{Binding DataCount, Converter={StaticResource CountConverter}}" VerticalAlignment="Center"/>
+            <Button  Style="{StaticResource NavigatorButton}" ToolTip="Next" Command="{Binding CommandNextRecord}">
+                <Image Source="..\Images\NextItem.png"/>
+            </Button>
+            <Button  Style="{StaticResource NavigatorButton}" ToolTip="Last" Command="{Binding CommandLastRecord}">
+                <Image Source="..\Images\MoveLastItem.png"/>
+            </Button>
+            <Button x:Name="buttonAdd" Style="{StaticResource NavigatorButton}" ToolTip="Add" Command="{Binding CommandAddRecord}" >
+                <Image Source="..\Images\AddItem.png"/>
+            </Button>
+            <Button  x:Name="buttonDelete" Style="{StaticResource NavigatorButton}" ToolTip="Delete" Command="{Binding CommandDeleteRecord}">
+                <Image Source="..\Images\DeleteItem.png"/>
+            </Button>
+            <Button  x:Name="buttonSave" Style="{StaticResource NavigatorButton}" ToolTip="Save" Command="{Binding CommandSave}">
+                <Image Source="..\Images\SaveItem.png"/>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</UserControl>
