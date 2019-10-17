@@ -9,3 +9,7 @@ namespace BindingNavigator.Wpf.Demo
     {
     }
 }
+
+/*
+ * https://github.com/AlexNek/BindingNavigatorWpf
+ */
