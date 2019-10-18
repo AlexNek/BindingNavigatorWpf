@@ -35,6 +35,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <None Include="docs\Design.md" />
     <None Include="docs\usage.md" />
     <None Include="GitVersion.yml" />
     <None Include="LICENSE" />
@@ -45,7 +46,10 @@
   <ItemGroup>
     <Content Include="docs\images\BindingNavigator-img.jpg" />
     <Content Include="docs\images\BindingNavigator.jpg" />
+    <Content Include="docs\images\BindingNavigatorConcept.png" />
+    <Content Include="docs\images\BindingNavigatorTypes8.png" />
     <Content Include="docs\images\demo-screen.png" />
+    <Content Include="docs\images\DemoTypes-s12.png" />
     <Content Include="Releases\1.0.7.7\BindingNavigator.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
