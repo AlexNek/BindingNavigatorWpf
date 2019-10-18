@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="9139120c-00d3-4299-a63f-79ba192904ba" Title="BindingNavigator Namespace" Url="html/N-BindingNavigator.htm">
+    <HelpTOCNode Id="49930790-9262-4719-bcf1-12360f71e104" Title="IDataChanger Interface" Url="html/T-BindingNavigator.IDataChanger.htm">
+      <HelpTOCNode Title="IDataChanger Members" Url="html/AllMembers.T-BindingNavigator.IDataChanger.htm" />
+      <HelpTOCNode Id="1e7d849f-54e9-462e-a885-bfefb1c14851" Title="IDataChanger Methods" Url="html/Methods.T-BindingNavigator.IDataChanger.htm">
+        <HelpTOCNode Title="AddNew Method " Url="html/M-BindingNavigator.IDataChanger.AddNew.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M-BindingNavigator.IDataChanger.Delete.htm" />
+        <HelpTOCNode Title="Save Method " Url="html/M-BindingNavigator.IDataChanger.Save.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b78ae7ce-1645-4013-af31-b59959dc26d1" Title="IViewDataManipulator Interface" Url="html/T-BindingNavigator.IViewDataManipulator.htm">
+      <HelpTOCNode Title="IViewDataManipulator Members" Url="html/AllMembers.T-BindingNavigator.IViewDataManipulator.htm" />
+      <HelpTOCNode Id="853f81aa-9183-4edf-89bf-07588bc0b6ff" Title="IViewDataManipulator Methods" Url="html/Methods.T-BindingNavigator.IViewDataManipulator.htm">
+        <HelpTOCNode Title="First Method " Url="html/M-BindingNavigator.IViewDataManipulator.First.htm" />
+        <HelpTOCNode Title="Last Method " Url="html/M-BindingNavigator.IViewDataManipulator.Last.htm" />
+        <HelpTOCNode Title="Next Method " Url="html/M-BindingNavigator.IViewDataManipulator.Next.htm" />
+        <HelpTOCNode Title="Prev Method " Url="html/M-BindingNavigator.IViewDataManipulator.Prev.htm" />
+        <HelpTOCNode Title="ToAbsolutePosition Method " Url="html/M-BindingNavigator.IViewDataManipulator.ToAbsolutePosition.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1a89695-4493-4bef-830c-f4b3f28b8fc8" Title="IViewDataManipulator Properties" Url="html/Properties.T-BindingNavigator.IViewDataManipulator.htm">
+        <HelpTOCNode Title="CanDelete Property " Url="html/P-BindingNavigator.IViewDataManipulator.CanDelete.htm" />
+        <HelpTOCNode Title="CanFirst Property " Url="html/P-BindingNavigator.IViewDataManipulator.CanFirst.htm" />
+        <HelpTOCNode Title="CanLast Property " Url="html/P-BindingNavigator.IViewDataManipulator.CanLast.htm" />
+        <HelpTOCNode Title="CanNext Property " Url="html/P-BindingNavigator.IViewDataManipulator.CanNext.htm" />
+        <HelpTOCNode Title="CanPrev Property " Url="html/P-BindingNavigator.IViewDataManipulator.CanPrev.htm" />
+        <HelpTOCNode Title="Current Property " Url="html/P-BindingNavigator.IViewDataManipulator.Current.htm" />
+        <HelpTOCNode Title="GetDataChanger Property " Url="html/P-BindingNavigator.IViewDataManipulator.GetDataChanger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9724493b-17ab-4880-bd05-9efd457e194d" Title="IViewDataManipulator Events" Url="html/Events.T-BindingNavigator.IViewDataManipulator.htm">
+        <HelpTOCNode Title="CountChanged Event" Url="html/E-BindingNavigator.IViewDataManipulator.CountChanged.htm" />
+        <HelpTOCNode Title="SelectionChanged Event" Url="html/E-BindingNavigator.IViewDataManipulator.SelectionChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="76da0371-7f7b-4aaa-a49c-d4a89f638c73" Title="NavigatorCommand Class" Url="html/T-BindingNavigator.NavigatorCommand.htm">
+      <HelpTOCNode Title="NavigatorCommand Members" Url="html/AllMembers.T-BindingNavigator.NavigatorCommand.htm" />
+      <HelpTOCNode Id="9b99b439-6978-492f-b9ee-fab98fae2cb4" Title="NavigatorCommand Methods" Url="html/Methods.T-BindingNavigator.NavigatorCommand.htm">
+        <HelpTOCNode Title="CanExecute Method " Url="html/M-BindingNavigator.NavigatorCommand.CanExecute.htm" />
+        <HelpTOCNode Title="Execute Method " Url="html/M-BindingNavigator.NavigatorCommand.Execute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="244ffb59-f32f-47ad-80a2-b5fb277e7d02" Title="NavigatorCommand Events" Url="html/Events.T-BindingNavigator.NavigatorCommand.htm">
+        <HelpTOCNode Title="CanExecuteChanged Event" Url="html/E-BindingNavigator.NavigatorCommand.CanExecuteChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8dfa4de9-7ff9-4330-9bbf-1160f133845e" Title="ObservableCollectionDataManipulator(T) Class" Url="html/T-BindingNavigator.ObservableCollectionDataManipulator-1.htm">
+      <HelpTOCNode Title="ObservableCollectionDataManipulator(T) Members" Url="html/AllMembers.T-BindingNavigator.ObservableCollectionDataManipulator-1.htm" />
+      <HelpTOCNode Title="ObservableCollectionDataManipulator(T) Constructor " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.-ctor.htm" />
+      <HelpTOCNode Id="3f512b14-c3c2-4731-a462-b922a21b6757" Title="ObservableCollectionDataManipulator(T) Methods" Url="html/Methods.T-BindingNavigator.ObservableCollectionDataManipulator-1.htm">
+        <HelpTOCNode Title="First Method " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.First.htm" />
+        <HelpTOCNode Title="Last Method " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.Last.htm" />
+        <HelpTOCNode Title="Next Method " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.Next.htm" />
+        <HelpTOCNode Title="Prev Method " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.Prev.htm" />
+        <HelpTOCNode Title="ToAbsolutePosition Method " Url="html/M-BindingNavigator.ObservableCollectionDataManipulator-1.ToAbsolutePosition.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8efcae63-a8d5-4486-938d-0033002ee3fb" Title="ObservableCollectionDataManipulator(T) Properties" Url="html/Properties.T-BindingNavigator.ObservableCollectionDataManipulator-1.htm">
+        <HelpTOCNode Title="CanDelete Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.CanDelete.htm" />
+        <HelpTOCNode Title="CanFirst Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.CanFirst.htm" />
+        <HelpTOCNode Title="CanLast Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.CanLast.htm" />
+        <HelpTOCNode Title="CanNext Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.CanNext.htm" />
+        <HelpTOCNode Title="CanPrev Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.CanPrev.htm" />
+        <HelpTOCNode Title="Current Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.Current.htm" />
+        <HelpTOCNode Title="GetDataChanger Property " Url="html/P-BindingNavigator.ObservableCollectionDataManipulator-1.GetDataChanger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e6363933-1a12-4477-81b2-a18ade14c363" Title="ObservableCollectionDataManipulator(T) Events" Url="html/Events.T-BindingNavigator.ObservableCollectionDataManipulator-1.htm">
+        <HelpTOCNode Title="CountChanged Event" Url="html/E-BindingNavigator.ObservableCollectionDataManipulator-1.CountChanged.htm" />
+        <HelpTOCNode Title="SelectionChanged Event" Url="html/E-BindingNavigator.ObservableCollectionDataManipulator-1.SelectionChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="cfadcd75-b3c1-4aed-b23a-5e7c03f50a61" Title="BindingNavigator.View Namespace" Url="html/N-BindingNavigator.View.htm">
+    <HelpTOCNode Id="0fc78cdc-ac7a-4424-a2be-d711d0e97042" Title="BindingNavigatorUc Class" Url="html/T-BindingNavigator.View.BindingNavigatorUc.htm">
+      <HelpTOCNode Title="BindingNavigatorUc Members" Url="html/AllMembers.T-BindingNavigator.View.BindingNavigatorUc.htm" />
+      <HelpTOCNode Title="BindingNavigatorUc Constructor " Url="html/M-BindingNavigator.View.BindingNavigatorUc.-ctor.htm" />
+      <HelpTOCNode Id="686e2b3c-9b72-46bc-aaec-6602d20638f4" Title="BindingNavigatorUc Fields" Url="html/Fields.T-BindingNavigator.View.BindingNavigatorUc.htm">
+        <HelpTOCNode Title="VisibilityAddProperty Field" Url="html/F-BindingNavigator.View.BindingNavigatorUc.VisibilityAddProperty.htm" />
+        <HelpTOCNode Title="VisibilityDeleteProperty Field" Url="html/F-BindingNavigator.View.BindingNavigatorUc.VisibilityDeleteProperty.htm" />
+        <HelpTOCNode Title="VisibilitySaveProperty Field" Url="html/F-BindingNavigator.View.BindingNavigatorUc.VisibilitySaveProperty.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BindingNavigatorUc Methods" Url="html/Methods.T-BindingNavigator.View.BindingNavigatorUc.htm" />
+      <HelpTOCNode Id="e4361082-bb53-43a9-87e9-70062b7d1551" Title="BindingNavigatorUc Properties" Url="html/Properties.T-BindingNavigator.View.BindingNavigatorUc.htm">
+        <HelpTOCNode Title="VisibilityAdd Property " Url="html/P-BindingNavigator.View.BindingNavigatorUc.VisibilityAdd.htm" />
+        <HelpTOCNode Title="VisibilityDelete Property " Url="html/P-BindingNavigator.View.BindingNavigatorUc.VisibilityDelete.htm" />
+        <HelpTOCNode Title="VisibilitySave Property " Url="html/P-BindingNavigator.View.BindingNavigatorUc.VisibilitySave.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BindingNavigatorUc Events" Url="html/Events.T-BindingNavigator.View.BindingNavigatorUc.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a3a5b847-3b96-44d2-87c3-d48f2214a42e" Title="BindingNavigator.ViewModel Namespace" Url="html/N-BindingNavigator.ViewModel.htm">
+    <HelpTOCNode Id="e25093b5-7940-453d-8249-af364e141357" Title="BindingNavigatorViewModel Class" Url="html/T-BindingNavigator.ViewModel.BindingNavigatorViewModel.htm">
+      <HelpTOCNode Title="BindingNavigatorViewModel Members" Url="html/AllMembers.T-BindingNavigator.ViewModel.BindingNavigatorViewModel.htm" />
+      <HelpTOCNode Title="BindingNavigatorViewModel Constructor " Url="html/M-BindingNavigator.ViewModel.BindingNavigatorViewModel.-ctor.htm" />
+      <HelpTOCNode Title="BindingNavigatorViewModel Methods" Url="html/Methods.T-BindingNavigator.ViewModel.BindingNavigatorViewModel.htm" />
+      <HelpTOCNode Id="87dd99d6-c1e1-4d9d-97aa-d1854ead03b7" Title="BindingNavigatorViewModel Properties" Url="html/Properties.T-BindingNavigator.ViewModel.BindingNavigatorViewModel.htm">
+        <HelpTOCNode Title="CommandAddRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandAddRecord.htm" />
+        <HelpTOCNode Title="CommandDeleteRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandDeleteRecord.htm" />
+        <HelpTOCNode Title="CommandFirstRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandFirstRecord.htm" />
+        <HelpTOCNode Title="CommandGoToRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandGoToRecord.htm" />
+        <HelpTOCNode Title="CommandLastRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandLastRecord.htm" />
+        <HelpTOCNode Title="CommandNextRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandNextRecord.htm" />
+        <HelpTOCNode Title="CommandPreviousRecord Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandPreviousRecord.htm" />
+        <HelpTOCNode Title="CommandSave Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CommandSave.htm" />
+        <HelpTOCNode Title="CurrentPosition Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.CurrentPosition.htm" />
+        <HelpTOCNode Title="DataCount Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.DataCount.htm" />
+        <HelpTOCNode Title="VisibilityAdd Property " Url="html/P-BindingNavigator.ViewModel.BindingNavigatorViewModel.VisibilityAdd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a07c2752-25d2-4098-81b8-2ecd88716441" Title="BindingNavigatorViewModel Events" Url="html/Events.T-BindingNavigator.ViewModel.BindingNavigatorViewModel.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/E-BindingNavigator.ViewModel.BindingNavigatorViewModel.PropertyChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
