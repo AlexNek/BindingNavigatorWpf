@@ -50,4 +50,4 @@ Buttons 7,8,9 could be hidden over XAML with attribute `VisibilityCommandName`
 
 [How to implemented](/docs/design.md)
 
-[Software documentation](/docs/Help/index.html)
+[Software documentation](https://alexnek.github.io/BindingNavigatorWpf/docs/Help/index.html)
