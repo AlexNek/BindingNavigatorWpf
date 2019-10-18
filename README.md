@@ -9,6 +9,8 @@ I try to write it as simple as possible that anyone can understood and use it.
 
 In addition there is the demo application. I plan to migrate all projects to .NET Core someday.
 
+[ReleaseNotes](ReleaseNotes.md)
+
 ## How it look
 
 ![Binding Navigator](docs/images/BindingNavigator.jpg)

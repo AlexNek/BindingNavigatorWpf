@@ -46,6 +46,7 @@
     <Content Include="docs\images\BindingNavigator-img.jpg" />
     <Content Include="docs\images\BindingNavigator.jpg" />
     <Content Include="docs\images\demo-screen.png" />
+    <Content Include="Releases\1.0.7.7\BindingNavigator.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
