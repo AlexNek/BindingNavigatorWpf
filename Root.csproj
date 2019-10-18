@@ -35,7 +35,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="docs\Design.md" />
+    <None Include="docs\design.md" />
     <None Include="docs\usage.md" />
     <None Include="GitVersion.yml" />
     <None Include="LICENSE" />
