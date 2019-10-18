@@ -49,3 +49,5 @@ Buttons 7,8,9 could be hidden over XAML with attribute `VisibilityCommandName`
 [How to use](/docs/usage.md)
 
 [How to implemented](/docs/design.md)
+
+[Software documentation](/docs/Help/index.html)
