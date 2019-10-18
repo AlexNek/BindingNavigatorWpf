@@ -42,5 +42,10 @@
     <None Include="ReleaseNotes.md" />
     <None Include="RootApp.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="docs\images\BindingNavigator-img.jpg" />
+    <Content Include="docs\images\BindingNavigator.jpg" />
+    <Content Include="docs\images\demo-screen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
