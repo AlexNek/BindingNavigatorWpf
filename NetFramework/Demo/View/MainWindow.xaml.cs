@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.Collections;
+using System.Windows;
+using System.Windows.Controls;
 
 using BindingNavigator.Wpf.Demo.ViewModel;
 
@@ -15,6 +17,20 @@ namespace BindingNavigator.Wpf.Demo.View
             mViewModel = new MainWindowVm();
             DataContext = mViewModel;
             InitializeComponent();
+        }
+
+        private void Grid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            object eOriginalSource = e.OriginalSource;
+            //new selection
+            IList addedItems = e.AddedItems;
+            if (addedItems.Count > 0)
+            {
+                mViewModel.ChangeSelection(addedItems[0]);
+            }
+
+            //old selection
+            IList eRemovedItems = e.RemovedItems;
         }
     }
 }

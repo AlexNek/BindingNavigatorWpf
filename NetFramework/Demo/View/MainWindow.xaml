@@ -22,7 +22,7 @@
                 </MenuItem>
             </Menu>
             <View:BindingNavigatorUc DockPanel.Dock="Bottom" DataContext="{Binding BindingNavigatorDataContext}"/>
-            <DataGrid ItemsSource="{Binding Customers}" SelectedIndex="{Binding SelectedIndex}" SelectedItem="{Binding SelectedItem}" AutoGenerateColumns="True">
+            <DataGrid ItemsSource="{Binding Customers}" SelectedIndex="{Binding SelectedIndex}" SelectedItem="{Binding SelectedItem}" SelectionChanged="Grid_OnSelectionChanged">
 
             </DataGrid>
         </DockPanel>

@@ -14,6 +14,8 @@ namespace BindingNavigator.Wpf.Demo.ViewModel
 
         private readonly ObservableCollection<CustomerItemUi> mCustomers = new ObservableCollection<CustomerItemUi>();
 
+        private readonly ObservableCollectionDataManipulator<CustomerItemUi> mViewDataManipulator;
+
         private BindingNavigatorViewModel mBindingNavigatorDataContext;
 
         private int mSelectedIndex;
@@ -64,14 +66,27 @@ namespace BindingNavigator.Wpf.Demo.ViewModel
             //clear selection
             SelectedIndex = -1;
 
-            IDataChanger getDataChanger = new IssueItemDataChanger(mCustomers);
-            ObservableCollectionDataManipulator<CustomerItemUi> viewDataManipulator =
-                new ObservableCollectionDataManipulator<CustomerItemUi>(mCustomers, getDataChanger);
-            viewDataManipulator.SelectionChanged += DataManipulator_SelectionChanged;
+            IDataChanger dataChanger = new IssueItemDataChanger(mCustomers);
+            mViewDataManipulator = new ObservableCollectionDataManipulator<CustomerItemUi>(mCustomers, dataChanger);
+            mViewDataManipulator.SelectionChanged += DataManipulator_SelectionChanged;
 
-            mBindingNavigatorDataContext = new BindingNavigatorViewModel(viewDataManipulator);
+            mBindingNavigatorDataContext = new BindingNavigatorViewModel(mViewDataManipulator);
             mBindingNavigatorDataContext.DataCount = mCustomers.Count;
             mBindingNavigatorDataContext.CurrentPosition = 0;
+        }
+
+        public void ChangeSelection(object selectedItem)
+        {
+            CustomerItemUi itemUi = selectedItem as CustomerItemUi;
+            if (itemUi != null)
+            {
+                int selectedIndex = mCustomers.IndexOf(itemUi);
+
+                if (selectedIndex >= 0)
+                {
+                    mViewDataManipulator.ToAbsolutePosition(selectedIndex);
+                }
+            }
         }
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -103,6 +118,7 @@ namespace BindingNavigator.Wpf.Demo.ViewModel
             set
             {
                 mBindingNavigatorDataContext = value;
+                OnPropertyChanged();
             }
         }
 
