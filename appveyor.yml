@@ -1,0 +1,13 @@
+version: 1.0.{build}
+branches:
+  only:
+  - master
+image: Visual Studio 2019 Preview
+shallow_clone: true
+before_build:
+  - nuget restore
+build:
+  project: BindingNavigator.Wpf.sln
+  publish_nuget: true
+  include_nuget_references: true
+  verbosity: minimal
