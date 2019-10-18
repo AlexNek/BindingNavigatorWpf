@@ -66,7 +66,7 @@ namespace BindingNavigator.Wpf.Demo.ViewModel
             //clear selection
             SelectedIndex = -1;
 
-            IDataChanger dataChanger = new IssueItemDataChanger(mCustomers);
+            IDataChanger dataChanger = new CustomerItemDataChanger(mCustomers);
             mViewDataManipulator = new ObservableCollectionDataManipulator<CustomerItemUi>(mCustomers, dataChanger);
             mViewDataManipulator.SelectionChanged += DataManipulator_SelectionChanged;
 

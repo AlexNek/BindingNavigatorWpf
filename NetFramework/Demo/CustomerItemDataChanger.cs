@@ -4,11 +4,11 @@ using BindingNavigator.Wpf.Demo.Model;
 
 namespace BindingNavigator.Wpf.Demo
 {
-    public class IssueItemDataChanger : IDataChanger
+    public class CustomerItemDataChanger : IDataChanger
     {
         private readonly ObservableCollection<CustomerItemUi> mItems;
 
-        public IssueItemDataChanger(ObservableCollection<CustomerItemUi> items)
+        public CustomerItemDataChanger(ObservableCollection<CustomerItemUi> items)
         {
             mItems = items;
         }

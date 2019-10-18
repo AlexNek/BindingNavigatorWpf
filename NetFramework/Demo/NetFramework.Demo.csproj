@@ -57,7 +57,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IssueItemDataChanger.cs" />
+    <Compile Include="CustomerItemDataChanger.cs" />
     <Compile Include="Model\CustomerItemUi.cs" />
     <Compile Include="Common\NotifyPropertyChanged.cs" />
     <Compile Include="ViewModel\MainWindowVm.cs" />
