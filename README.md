@@ -81,7 +81,7 @@ Buttons 7,8,9 could be hidden over XAML with attribute `VisibilityCommandName`
         }
 ```
 
-4. Default navigator implmentation use `ObservableCollection`
+4. Default navigator implementation use `ObservableCollection` so define the data source as ObservableCollection
 ```C#
         private readonly ObservableCollection<CustomerItemUi> mCustomers = new ObservableCollection<CustomerItemUi>();
 ```
