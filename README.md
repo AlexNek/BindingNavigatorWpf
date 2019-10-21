@@ -22,6 +22,7 @@ Alternatively you can download DLL or Nuget package from [Release Notes](Release
 ## How it look
 
 ![Binding Navigator](docs/images/BindingNavigator.jpg)
+
 Where is
 1 - first item
 2 - previous item
