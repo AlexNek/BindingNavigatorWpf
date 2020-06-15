@@ -9,7 +9,7 @@
     <DataGrid ItemsSource="{Binding Customers}" SelectedIndex="{Binding SelectedIndex}" SelectionChanged="Grid_OnSelectionChanged">
 </DockPanel>
 ```
-3. You to have define some properties in your view model:
+3. This control intended to use together with [MVVM Pattern](https://www.c-sharpcorner.com/UploadFile/raj1979/simple-mvvm-pattern-in-wpf/). You need to define some properties in your view model:
 ```C#
   public BindingNavigatorViewModel BindingNavigatorDataContext
         {
