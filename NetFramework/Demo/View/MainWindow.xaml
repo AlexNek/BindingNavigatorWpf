@@ -21,7 +21,7 @@
                     <MenuItem Header="_Exit" />
                 </MenuItem>
             </Menu>
-            <View:BindingNavigatorUc DockPanel.Dock="Bottom" DataContext="{Binding BindingNavigatorDataContext}"/>
+            <View:BindingNavigatorUc DockPanel.Dock="Bottom" DataContext="{Binding BindingNavigatorDataContext, Mode=OneWay}"/>
             <DataGrid ItemsSource="{Binding Customers}" SelectedIndex="{Binding SelectedIndex}" SelectedItem="{Binding SelectedItem}" SelectionChanged="Grid_OnSelectionChanged">
 
             </DataGrid>

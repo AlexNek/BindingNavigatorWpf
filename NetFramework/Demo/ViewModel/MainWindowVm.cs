@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 
 using BindingNavigator.ViewModel;
 using BindingNavigator.Wpf.Demo.Model;
+using BindingNavigator.Wpf.Demo.LocalizationSupport;
 
 namespace BindingNavigator.Wpf.Demo.ViewModel
 {
@@ -29,7 +30,7 @@ namespace BindingNavigator.Wpf.Demo.ViewModel
             mCustomers.Add(
                 new CustomerItemUi
                     {
-                        Firstname = "Christian",
+                        Firstname = Localization.Christian,
                         LastName = "Moser",
                         Gender = CustomerItemUi.EGender.Male,
                         WebSite = new Uri("http://wwww.wpftutorial.net"),

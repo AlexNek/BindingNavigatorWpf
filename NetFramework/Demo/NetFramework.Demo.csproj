@@ -58,6 +58,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CustomerItemDataChanger.cs" />
+    <Compile Include="LocalizationSupport\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
     <Compile Include="Model\CustomerItemUi.cs" />
     <Compile Include="Common\NotifyPropertyChanged.cs" />
     <Compile Include="ViewModel\MainWindowVm.cs" />
@@ -80,6 +85,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="LocalizationSupport\Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
