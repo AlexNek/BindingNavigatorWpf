@@ -18,6 +18,7 @@ Use Visual Studio Nuget Package manager and search `BindingNavigator` or use pac
 
 Alternatively you can download DLL or Nuget package from [Release Notes](ReleaseNotes.md) directly
 
+Net.Core version added
 
 ## How it look
 
@@ -52,3 +53,5 @@ Buttons 7,8,9 could be hidden over XAML with attribute `VisibilityCommandName`
 [How to implemented](/docs/design.md)
 
 [Software documentation](https://alexnek.github.io/BindingNavigatorWpf/docs/Help/index.html)
+
+[Release Notes](ReleaseNotes.md)
