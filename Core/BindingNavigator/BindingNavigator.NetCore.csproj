@@ -12,4 +12,24 @@
     <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\AddItem.png" />
+    <None Remove="Images\DeleteItem.png" />
+    <None Remove="Images\MoveFirstItem.png" />
+    <None Remove="Images\MoveLastItem.png" />
+    <None Remove="Images\NextItem.png" />
+    <None Remove="Images\PreviousItem.png" />
+    <None Remove="Images\SaveItem.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\AddItem.png" />
+    <Resource Include="Images\DeleteItem.png" />
+    <Resource Include="Images\MoveFirstItem.png" />
+    <Resource Include="Images\MoveLastItem.png" />
+    <Resource Include="Images\NextItem.png" />
+    <Resource Include="Images\PreviousItem.png" />
+    <Resource Include="Images\SaveItem.png" />
+  </ItemGroup>
+
 </Project>
