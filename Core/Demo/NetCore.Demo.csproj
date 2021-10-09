@@ -10,6 +10,7 @@
     <Product>BindingNavigator.NetCore.Demo</Product>
     <Company>private</Company>
     <Description>BindingNavigator.NetCore.Demo</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
