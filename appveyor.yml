@@ -14,7 +14,7 @@ build:
 artifacts:
 - path: '\NetFramework\BindingNavigator\bin\Release\BindingNavigator.dll'
   name: BindingNavigator.dll
-- path: '\NetFramework\BindingNavigator\bin\Release\BindingNavigator.NetCore.dll'
+- path: '\Core\BindingNavigator\bin\Debug\netcoreapp3.1\BindingNavigator.NetCore.dll'
   name: BindingNavigator.NetCore.dll
 deploy:
 - provider: NuGet
