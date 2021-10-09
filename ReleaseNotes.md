@@ -1,5 +1,5 @@
 ﻿**09.10.2021**
-Net.Core 3.1 Version
+[1.0.0.0 Net.Core 3.1 Version] (https://www.nuget.org/packages/BindingNavigator.NetCore/)
 
 **18.10.2019**
 
