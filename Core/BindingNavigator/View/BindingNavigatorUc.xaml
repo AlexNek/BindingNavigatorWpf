@@ -16,33 +16,39 @@
             <Setter Property="Width" Value="30"/>
             <Setter Property="Margin" Value="0,0,5,0"/>
         </Style>
+        <BitmapImage x:Key="MoveFirstItem" UriSource="../Images/MoveFirstItem.png" />
+        <BitmapImage x:Key="PreviousItem" UriSource="../Images/PreviousItem.png" />
+        <BitmapImage x:Key="NextItem" UriSource="../Images/NextItem.png" />
+        <BitmapImage x:Key="MoveLastItem" UriSource="../Images/MoveLastItem.png" />
+        <BitmapImage x:Key="AddItem" UriSource="../Images/AddItem.png" />
+        <BitmapImage x:Key="DeleteItem" UriSource="../Images/DeleteItem.png" />
+        <BitmapImage x:Key="SaveItem" UriSource="../Images/SaveItem.png" />
+        
     </UserControl.Resources>
     <Grid>
         <StackPanel Orientation="Horizontal">
             <Button  Style="{StaticResource NavigatorButton}" ToolTip="First" Command="{Binding CommandFirstRecord}">
-                <Image Source="..\Images\MoveFirstItem.png" >
-                    
-                </Image>
+                <Image  Source="{StaticResource MoveFirstItem}"/>
             </Button>
             <Button  Style="{StaticResource NavigatorButton}" ToolTip="Prev" Command="{Binding CommandPreviousRecord}">
-                <Image Source="..\Images\PreviousItem.png"/>
+                <Image  Source="{StaticResource PreviousItem}"/>
             </Button>
             <TextBox Width="50" Margin="0,0,5,0" KeyDown ="TextBox_OnKeyDown" Text="{Binding CurrentPosition, Converter={StaticResource CurrentPosConverter}}"/>
             <TextBlock Width="50" Margin="0,0,5,0" Text="{Binding DataCount, Converter={StaticResource CountConverter}}" VerticalAlignment="Center"/>
             <Button  Style="{StaticResource NavigatorButton}" ToolTip="Next" Command="{Binding CommandNextRecord}">
-                <Image Source="..\Images\NextItem.png"/>
+                <Image  Source="{StaticResource NextItem}"/>
             </Button>
             <Button  Style="{StaticResource NavigatorButton}" ToolTip="Last" Command="{Binding CommandLastRecord}">
-                <Image Source="..\Images\MoveLastItem.png"/>
+                <Image  Source="{StaticResource MoveLastItem}"/>
             </Button>
             <Button x:Name="buttonAdd" Style="{StaticResource NavigatorButton}" ToolTip="Add" Command="{Binding CommandAddRecord}" >
-                <Image Source="..\Images\AddItem.png"/>
+                <Image  Source="{StaticResource AddItem}"/>
             </Button>
             <Button  x:Name="buttonDelete" Style="{StaticResource NavigatorButton}" ToolTip="Delete" Command="{Binding CommandDeleteRecord}">
-                <Image Source="..\Images\DeleteItem.png"/>
+                <Image  Source="{StaticResource DeleteItem}"/>
             </Button>
             <Button  x:Name="buttonSave" Style="{StaticResource NavigatorButton}" ToolTip="Save" Command="{Binding CommandSave}">
-                <Image Source="..\Images\SaveItem.png"/>
+                <Image  Source="{StaticResource SaveItem}"/>
             </Button>
 
         </StackPanel>
